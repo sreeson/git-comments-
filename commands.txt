@@ -1,0 +1,64 @@
+Setting up Git-
+Configure Git (initial setup)
+git config --global user.name "sreeson"
+git config --global user.email "sreeson@gmail.com"
+
+Initialize a new Git repository
+git init
+
+Clone an existing repository
+git clone <repository-url>
+
+Check the status of the repository
+
+Stage changes for commit
+git add <file-name>
+git add .
+
+Commit changes with a message
+git commit -m "commit message"
+
+View commit history
+git log
+
+Branching and Merging
+Create a new branch
+git branch <branch-name>
+
+Switch to a different branch
+git checkout <branch-name>
+
+Create and switch to a new branch
+git checkout -b <branch-name>
+
+Merge a branch into the current branch
+git merge <branch-name>
+
+Delete a branch
+git branch -d <branch-name>
+
+Remote Repositories
+Add a remote repository
+git remote add origin <repository-url>
+
+View remote repositories
+git remote -v
+
+Push changes to a remote repository
+git push origin <branch-name>
+
+Pull changes from a remote repository
+git pull origin <branch-name>
+
+Stashing Changes
+Stash changes
+git stash
+
+Apply stashed changes
+git stash apply
+
+List stashed changes
+git stash list
+
+Drop a stash
+git stash drop
